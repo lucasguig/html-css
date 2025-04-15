@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: idroid;
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0%;
+}
+
+#cabecalho{
+    background-image: linear-gradient(180deg, #35BE72, #1B6139);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    color: white;
+    padding: 25px;
+    margin: auto;
+    width: auto;
+}
+
+.container > h1{
+    font-family: 'idroid', sans-serif;
+    color: #206F42;
+}
+
+.container > h2{
+    font-family: 'idroid', sans-serif;
+    color: #206F42;
+    background-image: linear-gradient(45deg, #71c997c2 55%, #b1e8c973);
+    padding: 5px;
+}
+
+.container > p > a{
+    text-decoration: none;
+    color: #206F42;
+    font-weight: 800;
+}
+
+.container > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho > p{
+    text-align: inherit;
+}
+
+nav > a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+nav > a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(199, 199, 199, 0.462);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p > a:hover{
+    color: #2FA866;
+}
+
+.container{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    word-spacing: 3px;
+    line-height: 24px;
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.284);
+}
+
+.container > p{
+    text-indent: 30px;
+}
+
+#container{
+    background-color: #1B6139;
+    margin: auto;
+    width: 800px;
+    padding: 15px;
+    align-content: center;
+    
+}
+
+#bugdroid{
+    align-content:center;
+}
+
+section{
+    background-color: #C5EBD6;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-indent: 30px;
+}
+
+section > p > a{
+    text-decoration: none;
+    color: #206F42;
+    font-weight: bolder;
+}
+
+section > p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.container > header{
+    background-color: #2FA866;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container > header > p{
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+#ancora{
+    width: 12px;
+    padding-left: 5px;
+}
+
+ul{
+    display: inline-block;
+    padding-right: 150px;
+    
+}
+
+ul > li > a{
+    text-decoration: underline;
+    color: black;
+}
+
+ul > li > a:hover{
+    color: rgb(88, 88, 88);
+}
+
+
+
+footer{
+    background-color: #1B6139;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+    margin-top: 5px;
+}

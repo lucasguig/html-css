@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(229, 229, 229);
+}
+
+h1, h2, p, hr {
+    color: rgb(0, 0, 0);
+}

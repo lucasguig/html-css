@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(84, 76, 73);
+}
+
+h1 {
+    color: gold;
+}
+
+h2 {
+    color: rgb(195, 167, 5);
+}
+
+p {
+    color: darkgoldenrod;
+}
+
+hr {
+    color: darkgrey;
+}

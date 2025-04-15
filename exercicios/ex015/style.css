@@ -1,0 +1,24 @@
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    background-color: #56b3ff;
+    color: #ffffff;
+}
+
+h2{
+    background-color: rgb(85, 85, 198);
+    color: #ffffff;
+}
+
+p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: rgb(17, 0, 255);
+}
